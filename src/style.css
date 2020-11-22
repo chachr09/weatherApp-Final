@@ -1,0 +1,85 @@
+body {
+  font-family: "Viaoda Libre", cursive;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  width: 150px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  height: 25px;
+  border-radius: 5px;
+  border-color: silver;
+}
+
+input[type="text"]:focus {
+  width: 60%;
+  border-color: silver;
+}
+h3 {
+  font-size: 24px;
+  text-align: center;
+  float: bottom;
+}
+#city {
+  font-family: "Mystery Quest", cursive;
+  font-size: 28px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 140px;
+  margin-right: 2px;
+}
+
+#country {
+  font-family: "Mystery Quest", cursive;
+  font-size: 28px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 1px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+}
+
+.card-body {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  padding: 20px;
+  width: 525px;
+  height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.currenttime {
+  height: 10px;
+}
+.current-degree-low {
+  float: right;
+  position: relative;
+  bottom: 0 auto;
+  right: 0 auto;
+  font-size: small;
+}
+.current-degree-hi {
+  float: right;
+  font-weight: 600;
+  position: relative;
+  bottom: 0 auto;
+  right: 0 auto;
+  font-size: 25px;
+}
+.degree-hi {
+  float: right;
+  font-weight: 600;
+}
+.degree-low {
+  float: right;
+}
