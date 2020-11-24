@@ -74,8 +74,7 @@ function handleSubmit(event) {
 }
 
 search(`New York`);
-let searchForm = document.querySelector("#search-weather");
-searchForm.addEventListener("submit", handleSubmit);
+
 
 function showLocation(position) {
   let units = `metric`;
@@ -91,4 +90,5 @@ function getCurrentPosition(event) {
 let button = document.querySelector(`#current-location`);
 button.addEventListener(`click`, getCurrentPosition);
 
-
+let searchForm = document.querySelector("#search-weather");
+searchForm.addEventListener("submit", handleSubmit);
