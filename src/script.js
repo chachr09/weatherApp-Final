@@ -37,7 +37,6 @@ console.log(formatDate());
 
 function displayWeatherConditions(response) {
   console.log(response.data);
-
   document.querySelector(`#forecast-description`).innerHTML =
     response.data.weather[0].description;
   document.querySelector(`#current-degreeHi`).innerHTML = Math.round(
@@ -46,7 +45,6 @@ function displayWeatherConditions(response) {
   document.querySelector(`#current-degreeLow`).innerHTML = Math.round(
     response.data.main.temp_min
   );
-
   document.querySelector(`#weather-icon`).innerHTML =
     response.data.weather.icon;
   document.querySelector(`#city`).innerHTML = response.data.name;
