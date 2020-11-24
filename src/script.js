@@ -35,7 +35,6 @@ function formatDate() {
 }
 console.log(formatDate());
 
-//
 function displayWeatherConditions(response) {
   console.log(response.data);
 
@@ -78,7 +77,6 @@ function handleSubmit(event) {
 
 search(`New York`);
 
-//
 
 function showLocation(position) {
   let units = `metric`;
